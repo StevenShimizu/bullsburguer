@@ -6,4 +6,11 @@ menu.addEventListener('click', () => {
     NavMenu.classList.toggle('ativo');
 })
 
+// Funcionalidade de menu adicionada por Steven - Membro 6
+const menu = document.querySelector('.menu');
+const NavMenu = document.querySelector('.nav-menu');
 
+menu.addEventListener('click', () => {
+    menu.classList.toggle('ativo');
+    NavMenu.classList.toggle('ativo');
+})
